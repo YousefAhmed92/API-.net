@@ -10,3 +10,4 @@ C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.dl
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\refint\Store.Data.dll
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\ref\Store.Data.dll
+C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.sourcelink.json

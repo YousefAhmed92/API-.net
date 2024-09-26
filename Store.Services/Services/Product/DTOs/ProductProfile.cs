@@ -12,9 +12,11 @@ namespace Store.Services.Services.Product.DTOs
     {
         public ProductProfile()
         {
-            CreateMap<Store.Data.Entities.Product, ProductDetailsDTO>();
+            CreateMap<Store.Data.Entities.Product, ProductDetailsDTO>()
+                .ForMember(dest => dest.PictureUrl, option => option.MapFrom<ProductPictureUrlSolver>());
             CreateMap<ProductType, BrandTypeDetailsDTO>();
             CreateMap<ProductBrand, BrandTypeDetailsDTO>();
+            
 
 
         }

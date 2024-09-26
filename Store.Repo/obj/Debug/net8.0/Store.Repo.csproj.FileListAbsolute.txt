@@ -13,3 +13,4 @@ C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.dl
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\refint\Store.Repo.dll
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\ref\Store.Repo.dll
+C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.sourcelink.json

@@ -2,6 +2,7 @@
 using Store.Data.Context;
 using Store.Data.Entities;
 using Store.Repo.Interfaces;
+using Store.Repo.Specifications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,12 +37,36 @@ namespace Store.Repo.Repos
         public async Task<TEntity> GetByIdAsync(TKey? id)
             => await _context.Set<TEntity>().FindAsync(id);
 
+       
+
         public void Update(TEntity entity)
             =>  _context.Update(entity);
+
+
+
+
+
+
+
+        public async Task<TEntity> GetByIdAsyncWithSpecification(ISpecification<TEntity> specs)
+            => await SpecificationEvaluator<TEntity, TKey>.GetQuery(_context.Set<TEntity>(), specs).FirstOrDefaultAsync();
+
+        public async Task<IReadOnlyList<TEntity>> GetAllAsyncWithSpecification(ISpecification<TEntity> specs)
+            => await SpecificationEvaluator<TEntity,TKey>.GetQuery(_context.Set<TEntity>(),specs).ToListAsync();
+
+
+
+
+
+
+
+
+
+
 
         //public async Task<TEntity> GetByIdAsNoTracking(TKey? id)
         //    => await _context.Set<TEntity>().AsNoTracking().FirstOrDefault(x => x.Id);
 
-      
+
     }
 }

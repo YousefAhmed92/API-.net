@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Store.Data.Entities;
 using Store.Repo.Interfaces;
+using Store.Repo.Specifications.Product;
+using Store.Services.Hepler;
 using Store.Services.Services.Product.DTOs;
 using System;
 using System.Collections.Generic;
@@ -30,12 +32,15 @@ namespace Store.Services.Services
 
         }
 
-        public async Task<IReadOnlyList<ProductDetailsDTO>> GetAllProductsAsync()
+        public async Task<PaginatedResultDTO<ProductDetailsDTO>> GetAllProductsAsync(ProductSpecification input)
         {
-            var products = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetAllAsNoTracking();
+            var specs = new ProductWithSpecifications(input);
+
+
+            var products = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetAllAsyncWithSpecification(specs);
             var mappedProducts = _mapper.Map <IReadOnlyList<ProductDetailsDTO>>(products);
 
-            return mappedProducts;
+            return new PaginatedResultDTO<ProductDetailsDTO>(input.PageSize, input.PageIndex , products.Count , mappedProducts);
         }
 
         public async Task<IReadOnlyList<BrandTypeDetailsDTO>> GetAllTypesAsync()
@@ -48,9 +53,17 @@ namespace Store.Services.Services
 
         public async Task<ProductDetailsDTO> GetProductByIdAsync(int? productId)
         {
-            if (productId is null) throw new Exception("id is null");
-            var Product = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetByIdAsync(productId.Value);
-            if (Product is null ) throw new Exception("id is null");
+            if (productId is null)
+                throw new Exception("id is null");
+
+
+            var specs = new ProductWithSpecifications(productId);
+
+
+            var Product = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetByIdAsyncWithSpecification(specs);
+
+            if (Product is null )
+                throw new Exception("id is null");
 
             var mappedProduct = _mapper.Map<ProductDetailsDTO>(Product);
 
