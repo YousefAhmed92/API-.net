@@ -10,9 +10,9 @@ C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Ser
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.AssemblyInfoInputs.cache
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.AssemblyInfo.cs
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.sourcelink.json
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Se.9385C541.Up2Date
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.dll
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\refint\Store.Services.dll
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\ref\Store.Services.dll
-C:\Users\youse\source\repos\Store.Data\Store.Services\obj\Debug\net8.0\Store.Services.sourcelink.json

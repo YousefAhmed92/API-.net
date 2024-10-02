@@ -3,8 +3,10 @@
     public class ProductWithSpecifications :BaseSpecification<Store.Data.Entities.Product>
     {
         public ProductWithSpecifications(ProductSpecification specs) 
-            : base (Product => (!specs.BrandId.HasValue || Product.BrandId == specs.BrandId.Value)&&
-                    (!specs.TypeId.HasValue || Product.TypeId == specs.TypeId.Value)
+            : base
+            (Product => (!specs.BrandId.HasValue || Product.BrandId == specs.BrandId.Value)
+                        &&(!specs.TypeId.HasValue || Product.TypeId == specs.TypeId.Value)
+                        && (string.IsNullOrEmpty(specs.Search) || Product.Name.Trim().ToLower().Contains(specs.Search))
             ) 
 
         {
@@ -17,7 +19,7 @@
 
             if (!string.IsNullOrEmpty(specs.Sort))
             {
-                switch(specs.Sort)
+                switch (specs.Sort)
                 {
                     case "Name":
                         AddOrderBy(x => x.Name);
@@ -26,8 +28,18 @@
                     case "Id":
                         AddOrderBy(x => x.Id);
                         break;
+
+                    default:
+                        AddOrderBy(x => x.Id); // Default sorting
+                        break;
                 }
             }
+            else
+            {
+                AddOrderBy(x => x.Id); // Default sorting if specs.Sort is null or empty
+            }
+
+
         }
 
 

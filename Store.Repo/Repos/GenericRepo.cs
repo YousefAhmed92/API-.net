@@ -55,6 +55,14 @@ namespace Store.Repo.Repos
             => await SpecificationEvaluator<TEntity,TKey>.GetQuery(_context.Set<TEntity>(),specs).ToListAsync();
 
 
+        private IQueryable <TEntity> ApplySpecification(ISpecification<TEntity> specs)
+            =>  SpecificationEvaluator<TEntity, TKey>.GetQuery(_context.Set<TEntity>(), specs);
+
+
+        public async Task<int> GetCountSpecificationAsync(ISpecification<TEntity> specs)
+            => await ApplySpecification(specs).CountAsync();
+
+
 
 
 

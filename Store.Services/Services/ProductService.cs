@@ -40,6 +40,8 @@ namespace Store.Services.Services
             var products = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetAllAsyncWithSpecification(specs);
             var mappedProducts = _mapper.Map <IReadOnlyList<ProductDetailsDTO>>(products);
 
+            var CountSpecs = new ProductCountSpecification(input);
+            var count = await _unitOfWork.repo<Store.Data.Entities.Product, int>().GetCountSpecificationAsync(CountSpecs);
             return new PaginatedResultDTO<ProductDetailsDTO>(input.PageSize, input.PageIndex , products.Count , mappedProducts);
         }
 

@@ -195,6 +195,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.16, )"
             }
           },
           "imports": [
@@ -272,6 +276,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

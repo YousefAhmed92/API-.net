@@ -6,8 +6,8 @@ C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.Ge
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.AssemblyInfoInputs.cache
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.AssemblyInfo.cs
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.sourcelink.json
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.dll
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\refint\Store.Data.dll
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\ref\Store.Data.dll
-C:\Users\youse\source\repos\Store.Data\Store.Data\obj\Debug\net8.0\Store.Data.sourcelink.json

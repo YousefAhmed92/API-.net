@@ -1,10 +1,12 @@
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\appsettings.json
+C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.staticwebassets.runtime.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.exe
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.deps.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.runtimeconfig.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.pdb
+C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Humanizer.dll
@@ -32,6 +34,8 @@ C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Microsoft.Open
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -127,6 +131,7 @@ C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.Asse
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.csproj.CoreCompileInputs.cache
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.sourcelink.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\staticwebassets\msbuild.Store.Web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -141,6 +146,4 @@ C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\refint\Store.W
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.genruntimeconfig.cache
 C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\ref\Store.Web.dll
-C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\youse\source\repos\Store.Data\Store.Web\obj\Debug\net8.0\Store.Web.sourcelink.json
-C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Store.Web.staticwebassets.runtime.json
+C:\Users\youse\source\repos\Store.Data\Store.Web\bin\Debug\net8.0\Newtonsoft.Json.dll

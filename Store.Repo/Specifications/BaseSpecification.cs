@@ -31,7 +31,9 @@ namespace Store.Repo.Specifications
             => Includes.Add(IncludeExpression);
 
         protected void AddOrderBy(Expression<Func<T, object>> orderByExpression)
-            => OrderBy = orderByExpression;
+        {
+            OrderBy = orderByExpression ?? throw new ArgumentNullException(nameof(orderByExpression));
+        }
 
         protected void AddOrderByDesc(Expression<Func<T, object>> orderByDescExpression)
             => OrderByDsec = orderByDescExpression;

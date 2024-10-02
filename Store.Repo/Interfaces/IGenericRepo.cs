@@ -19,6 +19,7 @@ namespace Store.Repo.Interfaces
         Task<TEntity> GetByIdAsyncWithSpecification(ISpecification<TEntity> specs);
         Task<IReadOnlyList<TEntity>> GetAllAsyncWithSpecification(ISpecification<TEntity> specs);
 
+        Task <int> GetCountSpecificationAsync(ISpecification<TEntity> specs);
 
         Task<IReadOnlyList<TEntity>> GetAllAsNoTracking();
 

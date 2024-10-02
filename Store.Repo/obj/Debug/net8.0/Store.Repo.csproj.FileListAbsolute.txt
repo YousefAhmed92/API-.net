@@ -8,9 +8,9 @@ C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.Ge
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.AssemblyInfoInputs.cache
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.AssemblyInfo.cs
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.sourcelink.json
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.csproj.Up2Date
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.dll
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\refint\Store.Repo.dll
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.pdb
 C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\ref\Store.Repo.dll
-C:\Users\youse\source\repos\Store.Data\Store.Repo\obj\Debug\net8.0\Store.Repo.sourcelink.json
