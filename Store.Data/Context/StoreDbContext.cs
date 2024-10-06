@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Store.Data.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store.Data.Context
 {
@@ -30,6 +25,7 @@ namespace Store.Data.Context
         public DbSet<Product> products { get; set; }
         public DbSet<ProductBrand> productBrands { get; set; }
         public DbSet <ProductType> productTypes { get; set; }
+        public DbSet<DeliveryMethod> deliveryMethods { get; set; }
 
 
 
