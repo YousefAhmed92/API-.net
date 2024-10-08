@@ -35,13 +35,13 @@ namespace Store.Web
 
 
             builder.Services.AddApplicationServices();
-            builder.Services.AddEntityService();
+            builder.Services.AddEntityService(builder.Configuration);
 
 
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerDocumntation();
 
             var app = builder.Build();
             await ApplySeeding.ApplySeedingAsync(app);

@@ -7,6 +7,8 @@ using Store.Services.HandleResponses;
 using Store.Services.Services.CacheService;
 using Store.Services.Services.BasketServices;
 using Store.Repo.Basket;
+using Store.Services.TokenService;
+using Store.Services.UserService;
 
 namespace Store.Web.Extensions
 {
@@ -16,8 +18,12 @@ namespace Store.Web.Extensions
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IUserService, UserService>();
+
+            //services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IBasketRepositary, BasketRepositary>();
+            services.AddScoped<ITokenService, TokenService>();
+
 
             services.AddScoped<ICacheService, CacheService>();
 
